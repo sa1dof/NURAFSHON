@@ -1,0 +1,43 @@
+/* .p2{
+  border: 10px solid;
+  width: max-content;
+} */
+
+/* div{
+ width: 300px;
+ height: 300px;
+ background-color: rgb(114, 15, 219);
+ border-radius: 50%;
+ text-align: center
+} */
+
+h1{
+text-align: center;
+}
+
+
+h1:last-child{
+color: red;
+background-color: aquamarine;
+}
+
+h1:nth-child(2){
+color: blue;
+}
+h1:nth-child(3){
+color: yellowgreen
+}
+
+
+h1:nth-last-child(2){
+color: turquoise;
+}
+
+/* p:hover{
+  color: blue;
+} */
+
+
+p:active{
+color: red;
+}
