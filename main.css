@@ -1,4 +1,4 @@
-.navbar{
+/* .navbar{
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -13,4 +13,26 @@ ul{
 .left{
 display: flex;
 align-items: center;
+} */
+
+div{
+width: 700px;
+height: 700px;
+border: 8px solid gray;
+display: flex;
+justify-content: space-between;
 }
+
+div p:nth-child(1){
+width: 200px;
+height: 200px;
+background-color: blue;
+margin: 0;
+}
+
+div p:nth-child(2){
+  width: 200px;
+  margin: 0;
+  height: 200px;
+  background-color: red;
+  }
